@@ -1,13 +1,5 @@
-<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <g transform="translate(16 6)">
-    <path d="M44 112C57 88 70 65 83 41C87 33 96 28 106 28C117 28 126 33 132 41C140 52 154 58 174 58H204C214 58 222 66 222 76C222 85 214 92 204 92H184C168 92 154 95 145 103C134 112 128 129 128 149V173" stroke="#111111" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
-    <path d="M43 111L30 68L64 77L86 61C74 54 58 53 45 60L22 73" stroke="#111111" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
-    <circle cx="150" cy="56" r="6.5" fill="#111111"/>
-    <path d="M198 58L220 64L203 76" stroke="#111111" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
-    <g transform="translate(24 162)">
-      <path d="M0 22L44 0L44 44L0 22Z" fill="#5F2DFF"/>
-      <path d="M88 22L44 0V44L88 22Z" fill="#5F2DFF"/>
-      <rect x="36" y="14" width="16" height="16" rx="3.2" fill="#5F2DFF"/>
-    </g>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 420" fill="none">
+<defs><linearGradient id="bow" x1="0" y1="0" x2="360" y2="0" gradientUnits="userSpaceOnUse"><stop stop-color="#6026ff"/><stop offset="1" stop-color="#4b14f2"/></linearGradient></defs>
+<g fill="#111111" fill-rule="evenodd"><path d="M 204,77 L 204,84 L 210,88 L 219,89 L 222,88 L 225,84 L 224,78 L 218,73 L 209,73 Z"/><path d="M 352,84 L 347,80 L 284,80 L 262,77 L 250,72 L 240,61 L 226,53 L 210,49 L 196,48 L 170,51 L 151,58 L 136,67 L 124,63 L 111,62 L 100,65 L 93,69 L 85,76 L 73,92 L 59,119 L 50,142 L 51,146 L 55,149 L 72,147 L 98,135 L 115,124 L 117,125 L 113,152 L 107,177 L 88,239 L 74,294 L 106,214 L 118,171 L 126,128 L 126,113 L 120,111 L 103,123 L 84,133 L 68,138 L 63,137 L 79,116 L 97,97 L 113,87 L 125,86 L 117,81 L 111,81 L 102,85 L 95,90 L 74,112 L 73,110 L 80,97 L 87,87 L 97,77 L 106,72 L 114,70 L 126,72 L 132,75 L 137,75 L 156,64 L 168,60 L 188,57 L 202,57 L 225,62 L 234,67 L 247,78 L 260,83 L 284,86 L 319,87 L 324,99 L 327,102 L 335,105 L 327,122 L 318,132 L 312,136 L 300,141 L 264,146 L 246,151 L 228,161 L 214,176 L 201,200 L 195,228 L 195,260 L 202,298 L 207,296 L 203,269 L 204,220 L 209,201 L 220,180 L 230,169 L 246,159 L 265,153 L 302,148 L 319,140 L 332,128 L 342,114 L 351,96 Z"/></g>
+<g fill="url(#bow)" fill-rule="evenodd"><path d="M 47,291 L 47,321 L 46,322 L 47,383 L 52,388 L 57,388 L 112,359 L 124,354 L 131,348 L 132,349 L 153,349 L 155,348 L 158,352 L 204,375 L 227,388 L 234,387 L 238,382 L 238,293 L 237,290 L 234,287 L 228,286 L 209,296 L 208,295 L 207,297 L 160,321 L 155,326 L 153,325 L 133,325 L 131,326 L 124,320 L 95,306 L 93,304 L 58,286 L 53,286 L 49,288 Z"/></g>
 </svg>
