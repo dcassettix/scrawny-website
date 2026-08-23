@@ -17,6 +17,13 @@
   --stop-brick: var(--coral);
 }
 
+/* The Scrawny wordmark stays intentionally lean to match the brand name and symbol. */
+.brand,
+.footer-brand {
+  font-weight: 560;
+  letter-spacing: -0.035em;
+}
+
 /* Replace the retired dog asset with the locked Scrawny flow mark. */
 .brand-dog,
 .footer-dog,
