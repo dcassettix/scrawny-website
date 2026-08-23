@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 610 225" role="img" aria-labelledby="title desc">
+  <title id="title">Scrawny flow mark</title>
+  <desc id="desc">Sage, Bowtie Violet, and Coral flow inputs pass behind the Scrawny S and converge to one Bowtie Violet output.</desc>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M106 50 H190 C214 50 218 84 246 84 H264" stroke="#778F5A" stroke-width="10"/>
+    <path d="M106 124 H286" stroke="#6B52D9" stroke-width="10"/>
+    <path d="M106 194 H192 C218 194 220 166 246 166 H372" stroke="#C1685B" stroke-width="10"/>
+    <circle cx="106" cy="50" r="16" stroke="#778F5A" stroke-width="10"/>
+    <circle cx="106" cy="124" r="16" stroke="#6B52D9" stroke-width="10"/>
+    <circle cx="106" cy="194" r="16" stroke="#C1685B" stroke-width="10"/>
+    <path d="M424 124 H548" stroke="#6B52D9" stroke-width="10"/>
+    <path d="M528 103 L550 124 L528 145" stroke="#6B52D9" stroke-width="10"/>
+    <path d="M424 54 H330 C297 54 279 73 279 96 C279 118 296 128 323 128 H362 C400 128 420 145 420 170 C420 199 395 215 356 215 H283" stroke="#F3F1EC" stroke-width="44"/>
+    <path d="M356 215 H283" stroke="#F3F1EC" stroke-width="48"/>
+  </g>
+</svg>
