@@ -1,0 +1,74 @@
+/* Production lockup layer: approved artwork is treated as an immutable visual asset. */
+.brand {
+  display: block;
+  width: 255px;
+  line-height: 0;
+}
+
+.brand img,
+.footer-lockup,
+.hero-lockup {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.hero-brand-card {
+  min-height: 382px;
+  padding: 30px 34px 26px;
+  display: grid;
+  place-items: center;
+  margin: 0;
+  border: 1px solid rgba(243, 241, 236, 0.17);
+  border-radius: 28px;
+  background: rgba(255, 255, 255, 0.018);
+}
+
+.hero-lockup {
+  max-width: 520px;
+}
+
+.footer-lockup {
+  width: 205px;
+}
+
+@media (max-width: 1040px) {
+  .brand {
+    width: 235px;
+  }
+
+  .hero-brand-card {
+    width: min(100%, 720px);
+    justify-self: center;
+  }
+}
+
+@media (max-width: 760px) {
+  .brand {
+    width: 185px;
+  }
+
+  .hero-brand-card {
+    min-height: 280px;
+    padding: 22px 20px;
+    border-radius: 20px;
+  }
+
+  .footer-lockup {
+    width: 170px;
+  }
+}
+
+@media (max-width: 520px) {
+  .brand {
+    width: 155px;
+  }
+
+  .hero-brand-card {
+    padding: 18px 14px;
+  }
+
+  .footer-lockup {
+    width: 145px;
+  }
+}
