@@ -11,15 +11,15 @@
 .brand-mark-crop,
 .hero-mark-crop {
   display: block;
-  background-image: url("assets/scrawny-approved-tuple-b.svg?v=tuple-b-2");
+  background-image: url("assets/scrawny-mark-exact-clean.svg?v=tuple-b-3");
   background-repeat: no-repeat;
-  background-position: top center;
-  background-size: 100% auto;
+  background-position: center;
+  background-size: contain;
 }
 
 .brand-mark-crop {
   width: 128px;
-  height: 49px;
+  aspect-ratio: 610 / 225;
   flex: 0 0 auto;
 }
 
@@ -36,7 +36,6 @@
   font-size: 29px;
 }
 
-/* The approved concept is intentionally quiet: no giant decorative ring behind the mark. */
 .hero::before {
   display: none;
 }
@@ -73,7 +72,6 @@
   font-size: 24px;
 }
 
-/* Keep the three-card section compact and premium, matching the approved mockup. */
 .platform {
   padding-top: 40px;
   padding-bottom: 58px;
@@ -86,7 +84,6 @@
 @media (max-width: 1040px) {
   .brand-mark-crop {
     width: 116px;
-    height: 44px;
   }
 
   .brand-wordmark {
@@ -106,7 +103,6 @@
 
   .brand-mark-crop {
     width: 92px;
-    height: 35px;
   }
 
   .brand-wordmark {
@@ -135,7 +131,6 @@
 @media (max-width: 520px) {
   .brand-mark-crop {
     width: 74px;
-    height: 28px;
   }
 
   .brand-wordmark {
