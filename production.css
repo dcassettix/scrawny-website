@@ -13,7 +13,7 @@
   width: 128px;
   aspect-ratio: 610 / 225;
   flex: 0 0 auto;
-  background-image: url("assets/scrawny-approved-tuple-b.svg?v=type-1");
+  background-image: url("assets/scrawny-approved-tuple-b.svg?v=cards-1");
   background-repeat: no-repeat;
   background-position: top center;
   background-size: 100% auto;
@@ -63,10 +63,6 @@
 .platform {
   padding-top: 40px;
   padding-bottom: 58px;
-}
-
-.product-card {
-  min-height: 210px;
 }
 
 /* Typography alignment: the page should feel like the same design family as the Scrawny wordmark. */
@@ -130,6 +126,60 @@ body {
   letter-spacing: 0.035em;
 }
 
+/* Product cards: center the icon against the full content block and lock every CTA to one baseline. */
+.product-card {
+  min-height: 252px;
+  padding: 28px;
+  grid-template-columns: 112px minmax(0, 1fr);
+  gap: 28px;
+  align-items: stretch;
+}
+
+.product-icon {
+  width: 108px;
+  align-self: center;
+  border-radius: 16px;
+}
+
+.product-icon svg {
+  width: 66px;
+  height: 66px;
+  stroke-width: 2.35;
+}
+
+.product-copy {
+  min-width: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 2px 0;
+}
+
+.product-name {
+  margin-bottom: 7px;
+}
+
+.product-card h3 {
+  margin-bottom: 10px;
+  font-size: 20px;
+  line-height: 1.16;
+}
+
+.product-card p:not(.product-name) {
+  max-width: 29ch;
+  font-size: 14px;
+  line-height: 1.48;
+}
+
+.card-link {
+  margin-top: auto;
+  padding-top: 18px;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.045em;
+  opacity: 0.78;
+}
+
 @media (max-width: 1040px) {
   .brand-mark-crop {
     width: 116px;
@@ -142,6 +192,19 @@ body {
   .hero-brand-card.exact-approved-lockup {
     width: min(100%, 720px);
     justify-self: center;
+  }
+
+  .product-card {
+    grid-template-columns: 100px minmax(0, 1fr);
+  }
+
+  .product-icon {
+    width: 96px;
+  }
+
+  .product-icon svg {
+    width: 60px;
+    height: 60px;
   }
 }
 
@@ -167,6 +230,26 @@ body {
   .footer-clean-wordmark {
     font-size: 21px;
   }
+
+  .product-card {
+    min-height: 220px;
+    padding: 24px;
+    grid-template-columns: 86px minmax(0, 1fr);
+    gap: 22px;
+  }
+
+  .product-icon {
+    width: 82px;
+  }
+
+  .product-icon svg {
+    width: 52px;
+    height: 52px;
+  }
+
+  .card-link {
+    padding-top: 14px;
+  }
 }
 
 @media (max-width: 520px) {
@@ -180,5 +263,19 @@ body {
 
   .hero-brand-card.exact-approved-lockup {
     padding: 12px;
+  }
+
+  .product-card {
+    grid-template-columns: 74px minmax(0, 1fr);
+    gap: 18px;
+  }
+
+  .product-icon {
+    width: 70px;
+  }
+
+  .product-icon svg {
+    width: 45px;
+    height: 45px;
   }
 }
