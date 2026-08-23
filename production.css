@@ -1,4 +1,4 @@
-/* Approved Tuple B visual baseline. Preserve the approved symbol geometry exactly; render the wordmark as crisp live type. */
+/* Approved Tuple B visual baseline. Header stays compact; hero uses the exact approved artwork pixels. */
 
 .clean-brand {
   display: inline-flex;
@@ -8,23 +8,18 @@
   line-height: 1;
 }
 
-.brand-mark-crop,
-.hero-mark-crop {
+.brand-mark-crop {
   display: block;
-  background-image: url("assets/scrawny-approved-tuple-b.svg?v=tuple-b-4");
+  width: 128px;
+  aspect-ratio: 610 / 225;
+  flex: 0 0 auto;
+  background-image: url("assets/scrawny-approved-tuple-b.svg?v=tuple-b-exact-1");
   background-repeat: no-repeat;
   background-position: top center;
   background-size: 100% auto;
 }
 
-.brand-mark-crop {
-  width: 128px;
-  aspect-ratio: 610 / 225;
-  flex: 0 0 auto;
-}
-
 .brand-wordmark,
-.hero-clean-wordmark,
 .footer-clean-wordmark {
   font-family: "Jura", "Segoe UI", sans-serif;
   font-weight: 400;
@@ -40,31 +35,24 @@
   display: none;
 }
 
-.hero-brand-card.clean-lockup {
+.hero-brand-card.exact-approved-lockup {
   min-height: 382px;
-  padding: 38px 34px 30px;
+  padding: 24px;
   display: grid;
-  grid-template-rows: auto auto;
-  align-content: center;
-  justify-items: center;
-  row-gap: 12px;
+  place-items: center;
   margin: 0;
+  overflow: hidden;
   border: 1px solid rgba(243, 241, 236, 0.17);
   border-radius: 28px;
-  background: #12161c;
+  background: #080b10;
   box-shadow: inset 0 0 40px rgba(255, 255, 255, 0.012);
 }
 
-.hero-mark-crop {
-  width: min(100%, 560px);
-  aspect-ratio: 610 / 225;
-}
-
-.hero-clean-wordmark {
-  margin: 0;
-  color: var(--bone);
-  font-size: clamp(48px, 4.8vw, 68px);
-  line-height: 0.95;
+.hero-exact-artwork {
+  display: block;
+  width: min(100%, 655px);
+  height: auto;
+  object-fit: contain;
 }
 
 .footer-clean-wordmark {
@@ -90,7 +78,7 @@
     font-size: 27px;
   }
 
-  .hero-brand-card.clean-lockup {
+  .hero-brand-card.exact-approved-lockup {
     width: min(100%, 720px);
     justify-self: center;
   }
@@ -109,18 +97,10 @@
     font-size: 23px;
   }
 
-  .hero-brand-card.clean-lockup {
+  .hero-brand-card.exact-approved-lockup {
     min-height: 280px;
-    padding: 26px 20px 22px;
+    padding: 18px;
     border-radius: 20px;
-  }
-
-  .hero-mark-crop {
-    width: min(100%, 520px);
-  }
-
-  .hero-clean-wordmark {
-    font-size: clamp(42px, 10vw, 58px);
   }
 
   .footer-clean-wordmark {
@@ -137,11 +117,7 @@
     font-size: 21px;
   }
 
-  .hero-brand-card.clean-lockup {
-    padding: 20px 14px 18px;
-  }
-
-  .hero-clean-wordmark {
-    font-size: 42px;
+  .hero-brand-card.exact-approved-lockup {
+    padding: 12px;
   }
 }
