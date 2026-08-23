@@ -13,7 +13,7 @@
   width: 128px;
   aspect-ratio: 610 / 225;
   flex: 0 0 auto;
-  background-image: url("assets/scrawny-approved-tuple-b.svg?v=tuple-b-exact-1");
+  background-image: url("assets/scrawny-approved-tuple-b.svg?v=type-1");
   background-repeat: no-repeat;
   background-position: top center;
   background-size: 100% auto;
@@ -67,6 +67,67 @@
 
 .product-card {
   min-height: 210px;
+}
+
+/* Typography alignment: the page should feel like the same design family as the Scrawny wordmark. */
+body {
+  font-family: "Space Grotesk", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+.hero h1,
+.platform-heading h2,
+.product-card h3 {
+  font-family: "Space Grotesk", system-ui, sans-serif;
+}
+
+.hero h1 {
+  font-weight: 700;
+  letter-spacing: -0.055em;
+}
+
+.platform-heading h2,
+.product-card h3 {
+  font-weight: 600;
+  letter-spacing: -0.035em;
+}
+
+.hero-lede,
+.platform-heading p,
+.product-card p:not(.product-name) {
+  font-family: "Space Grotesk", system-ui, sans-serif;
+  font-weight: 400;
+  letter-spacing: -0.012em;
+}
+
+.eyebrow,
+.primary-nav,
+.header-cta,
+.button,
+.text-link,
+.hero-note,
+.product-name,
+.card-link {
+  font-family: "Jura", "Segoe UI", sans-serif;
+}
+
+.eyebrow,
+.product-name {
+  font-weight: 600;
+  letter-spacing: 0.14em;
+}
+
+.primary-nav,
+.header-cta,
+.button,
+.text-link,
+.card-link {
+  font-weight: 600;
+  letter-spacing: 0.015em;
+}
+
+.hero-note {
+  font-weight: 500;
+  letter-spacing: 0.035em;
 }
 
 @media (max-width: 1040px) {
