@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 330" role="img" aria-labelledby="title desc">
+  <title id="title">Scrawny</title>
+  <desc id="desc">Sage, Bowtie Violet, and Coral flow lines converge behind an asymmetric Scrawny S and exit as one Bowtie Violet arrow.</desc>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M58 54 H174 C207 54 203 83 240 83 H286" stroke="#778F5A" stroke-width="9"/>
+    <path d="M58 110 H452" stroke="#6B52D9" stroke-width="9"/>
+    <path d="M58 166 H174 C207 166 203 137 240 137 H315" stroke="#C1685B" stroke-width="9"/>
+    <circle cx="40" cy="54" r="12" stroke="#778F5A" stroke-width="8"/>
+    <circle cx="40" cy="110" r="12" stroke="#6B52D9" stroke-width="8"/>
+    <circle cx="40" cy="166" r="12" stroke="#C1685B" stroke-width="8"/>
+    <path d="M390 110 H452" stroke="#6B52D9" stroke-width="9"/>
+    <path d="M438 94 L454 110 L438 126" stroke="#6B52D9" stroke-width="9"/>
+    <path d="M355 42 H299 C257 42 235 59 235 83 C235 106 253 116 282 122 L319 130 C354 138 370 157 370 181 C370 212 343 230 302 230 H210" stroke="#0E1116" stroke-width="40"/>
+    <path d="M302 230 H210" stroke="#0E1116" stroke-width="46"/>
+  </g>
+  <g fill="none" stroke="#0E1116" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" transform="translate(15 235)">
+    <path d="M10 20 H48 C58 20 58 36 48 36 H28 C18 36 18 54 28 54 H62"/>
+    <path d="M120 20 H92 C77 20 70 30 70 42 C70 54 77 64 92 64 H120"/>
+    <path d="M142 64 V20 H164 C178 20 184 27 184 38"/>
+    <path d="M210 30 C210 23 216 20 226 20 H250 V64 H225 C214 64 208 56 208 47 C208 38 214 32 225 32 H250"/>
+    <path d="M274 20 L283 64 L300 34 L317 64 L326 20"/>
+    <path d="M350 64 V20 H368 C384 20 390 28 390 42 V64"/>
+    <path d="M414 20 L429 53 C432 60 438 64 446 64 H458 M458 20 V65 C458 78 451 84 438 84 H424"/>
+  </g>
+</svg>
