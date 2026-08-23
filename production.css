@@ -1,16 +1,39 @@
-/* Approved visual baseline: use fixed Tuple B artwork; do not reconstruct the logo in CSS. */
-.brand {
-  display: block;
-  width: 278px;
-  line-height: 0;
+/* Approved Tuple B visual baseline. The symbol stays fixed; the wordmark is rendered as crisp live type. */
+
+.clean-brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 14px;
+  width: fit-content;
+  line-height: 1;
 }
 
-.brand img,
-.footer-lockup,
-.hero-lockup {
+.brand-mark-crop,
+.hero-mark-crop {
   display: block;
-  width: 100%;
-  height: auto;
+  background-image: url("assets/scrawny-approved-tuple-b.svg?v=tuple-b-2");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: 100% auto;
+}
+
+.brand-mark-crop {
+  width: 128px;
+  height: 49px;
+  flex: 0 0 auto;
+}
+
+.brand-wordmark,
+.hero-clean-wordmark,
+.footer-clean-wordmark {
+  font-family: "Jura", "Segoe UI", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.035em;
+}
+
+.brand-wordmark {
+  color: var(--bone);
+  font-size: 29px;
 }
 
 /* The approved concept is intentionally quiet: no giant decorative ring behind the mark. */
@@ -18,11 +41,14 @@
   display: none;
 }
 
-.hero-brand-card {
+.hero-brand-card.clean-lockup {
   min-height: 382px;
-  padding: 30px 34px 26px;
+  padding: 38px 34px 30px;
   display: grid;
-  place-items: center;
+  grid-template-rows: auto auto;
+  align-content: center;
+  justify-items: center;
+  row-gap: 12px;
   margin: 0;
   border: 1px solid rgba(243, 241, 236, 0.17);
   border-radius: 28px;
@@ -30,12 +56,21 @@
   box-shadow: inset 0 0 40px rgba(255, 255, 255, 0.012);
 }
 
-.hero-lockup {
-  max-width: 560px;
+.hero-mark-crop {
+  width: min(100%, 560px);
+  aspect-ratio: 610 / 225;
 }
 
-.footer-lockup {
-  width: 220px;
+.hero-clean-wordmark {
+  margin: 0;
+  color: var(--bone);
+  font-size: clamp(48px, 4.8vw, 68px);
+  line-height: 0.95;
+}
+
+.footer-clean-wordmark {
+  color: var(--bone);
+  font-size: 24px;
 }
 
 /* Keep the three-card section compact and premium, matching the approved mockup. */
@@ -49,46 +84,69 @@
 }
 
 @media (max-width: 1040px) {
-  .brand {
-    width: 244px;
+  .brand-mark-crop {
+    width: 116px;
+    height: 44px;
   }
 
-  .hero-brand-card {
+  .brand-wordmark {
+    font-size: 27px;
+  }
+
+  .hero-brand-card.clean-lockup {
     width: min(100%, 720px);
     justify-self: center;
   }
 }
 
 @media (max-width: 760px) {
-  .brand {
-    width: 192px;
+  .clean-brand {
+    gap: 10px;
   }
 
-  .hero-brand-card {
+  .brand-mark-crop {
+    width: 92px;
+    height: 35px;
+  }
+
+  .brand-wordmark {
+    font-size: 23px;
+  }
+
+  .hero-brand-card.clean-lockup {
     min-height: 280px;
-    padding: 22px 20px;
+    padding: 26px 20px 22px;
     border-radius: 20px;
   }
 
-  .hero-lockup {
-    max-width: 520px;
+  .hero-mark-crop {
+    width: min(100%, 520px);
   }
 
-  .footer-lockup {
-    width: 176px;
+  .hero-clean-wordmark {
+    font-size: clamp(42px, 10vw, 58px);
+  }
+
+  .footer-clean-wordmark {
+    font-size: 21px;
   }
 }
 
 @media (max-width: 520px) {
-  .brand {
-    width: 160px;
+  .brand-mark-crop {
+    width: 74px;
+    height: 28px;
   }
 
-  .hero-brand-card {
-    padding: 18px 14px;
+  .brand-wordmark {
+    font-size: 21px;
   }
 
-  .footer-lockup {
-    width: 150px;
+  .hero-brand-card.clean-lockup {
+    padding: 20px 14px 18px;
+  }
+
+  .hero-clean-wordmark {
+    font-size: 42px;
   }
 }
