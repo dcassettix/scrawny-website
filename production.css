@@ -1,4 +1,4 @@
-/* Approved Tuple B visual baseline. The symbol stays fixed; the wordmark is rendered as crisp live type. */
+/* Approved Tuple B visual baseline. Preserve the approved symbol geometry exactly; render the wordmark as crisp live type. */
 
 .clean-brand {
   display: inline-flex;
@@ -11,10 +11,10 @@
 .brand-mark-crop,
 .hero-mark-crop {
   display: block;
-  background-image: url("assets/scrawny-mark-exact-clean.svg?v=tuple-b-3");
+  background-image: url("assets/scrawny-approved-tuple-b.svg?v=tuple-b-4");
   background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
+  background-position: top center;
+  background-size: 100% auto;
 }
 
 .brand-mark-crop {
