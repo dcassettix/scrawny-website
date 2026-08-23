@@ -1,16 +1,15 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 610 225" role="img" aria-labelledby="title desc">
   <title id="title">Scrawny flow mark</title>
-  <desc id="desc">Sage, Bowtie Violet, and Coral flow inputs pass behind the Scrawny S and converge to one Bowtie Violet output.</desc>
+  <desc id="desc">Sage, Bowtie Violet, and Coral flow inputs pass cleanly behind the Scrawny S and converge to one Bowtie Violet output.</desc>
   <g fill="none" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M106 50 H190 C214 50 218 84 246 84 H264" stroke="#778F5A" stroke-width="10"/>
-    <path d="M106 124 H286" stroke="#6B52D9" stroke-width="10"/>
-    <path d="M106 194 H192 C218 194 220 166 246 166 H372" stroke="#C1685B" stroke-width="10"/>
+    <path d="M126 50 H192 C216 50 218 84 244 84 H265" stroke="#778F5A" stroke-width="10"/>
+    <path d="M126 122 H292" stroke="#6B52D9" stroke-width="10"/>
+    <path d="M126 193 H196 C220 193 220 166 238 166 H372" stroke="#C1685B" stroke-width="10"/>
     <circle cx="106" cy="50" r="16" stroke="#778F5A" stroke-width="10"/>
-    <circle cx="106" cy="124" r="16" stroke="#6B52D9" stroke-width="10"/>
-    <circle cx="106" cy="194" r="16" stroke="#C1685B" stroke-width="10"/>
-    <path d="M424 124 H548" stroke="#6B52D9" stroke-width="10"/>
-    <path d="M528 103 L550 124 L528 145" stroke="#6B52D9" stroke-width="10"/>
-    <path d="M424 54 H330 C297 54 279 73 279 96 C279 118 296 128 323 128 H362 C400 128 420 145 420 170 C420 199 395 215 356 215 H283" stroke="#F3F1EC" stroke-width="44"/>
-    <path d="M356 215 H283" stroke="#F3F1EC" stroke-width="48"/>
+    <circle cx="106" cy="122" r="16" stroke="#6B52D9" stroke-width="10"/>
+    <circle cx="106" cy="193" r="16" stroke="#C1685B" stroke-width="10"/>
+    <path d="M422 135 H540" stroke="#6B52D9" stroke-width="10"/>
+    <path d="M525 116 L545 135 L525 154" stroke="#6B52D9" stroke-width="10"/>
   </g>
+  <path d="M304 36 L294 42 L288 47 L279 59 L274 72 L274 75 L273 76 L273 95 L279 112 L286 122 L295 130 L306 136 L312 138 L316 138 L317 139 L372 139 L380 142 L383 144 L391 153 L391 155 L393 158 L393 163 L394 164 L393 173 L389 181 L383 187 L378 190 L371 191 L370 192 L275 192 L269 195 L265 200 L264 203 L265 213 L270 219 L279 222 L365 222 L366 221 L379 221 L389 218 L400 212 L408 205 L415 196 L422 180 L422 176 L423 175 L423 156 L419 143 L415 135 L404 122 L394 115 L384 111 L375 110 L374 109 L320 109 L313 106 L304 96 L302 90 L302 82 L306 72 L312 66 L320 62 L418 62 L425 59 L428 56 L430 52 L430 42 L425 35 L419 32 L319 32 L318 33 L313 33 Z" fill="#F3F1EC"/>
 </svg>
