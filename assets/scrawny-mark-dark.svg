@@ -3,18 +3,18 @@
   <desc id="desc">Sage, Bowtie Violet, and Coral flow inputs converge behind a lean rounded S into a Bowtie Violet output arrow.</desc>
 
   <g fill="none" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M68 72 H206 C244 72 228 120 284 120 H328" stroke="#778F5A" stroke-width="14"/>
-    <path d="M68 150 H330" stroke="#6B52D9" stroke-width="14"/>
-    <path d="M68 228 H206 C244 228 228 180 284 180 H328" stroke="#C1685B" stroke-width="14"/>
+    <path d="M68 72 H206 C244 72 228 120 284 120 H328" stroke="#778F5A" stroke-width="10"/>
+    <path d="M68 150 H330" stroke="#6B52D9" stroke-width="10"/>
+    <path d="M68 228 H206 C244 228 228 180 284 180 H328" stroke="#C1685B" stroke-width="10"/>
 
-    <circle cx="50" cy="72" r="17" stroke="#778F5A" stroke-width="12"/>
-    <circle cx="50" cy="150" r="17" stroke="#6B52D9" stroke-width="12"/>
-    <circle cx="50" cy="228" r="17" stroke="#C1685B" stroke-width="12"/>
+    <circle cx="50" cy="72" r="15" stroke="#778F5A" stroke-width="8"/>
+    <circle cx="50" cy="150" r="15" stroke="#6B52D9" stroke-width="8"/>
+    <circle cx="50" cy="228" r="15" stroke="#C1685B" stroke-width="8"/>
 
-    <path d="M372 150 H554" stroke="#6B52D9" stroke-width="14"/>
-    <path d="M532 124 L558 150 L532 176" stroke="#6B52D9" stroke-width="14"/>
+    <path d="M372 150 H554" stroke="#6B52D9" stroke-width="10"/>
+    <path d="M534 130 L558 150 L534 170" stroke="#6B52D9" stroke-width="10"/>
 
-    <path d="M406 68 H346 C315 68 298 84 298 106 C298 127 313 139 339 145 L376 153 C406 160 421 176 421 198 C421 223 401 236 368 236 H294"
-          stroke="#F3F1EC" stroke-width="36"/>
+    <path d="M408 70 H348 C316 70 299 86 299 106 C299 126 313 137 339 143 L376 151 C408 158 422 176 422 198 C422 222 401 234 368 234 H294"
+          stroke="#F3F1EC" stroke-width="24"/>
   </g>
 </svg>
