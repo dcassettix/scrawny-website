@@ -9,6 +9,6 @@
     <circle cx="13" cy="94" r="5" stroke="#C1685B" stroke-width="4"/>
     <path d="M74 64 H108" stroke="#6B52D9" stroke-width="5"/>
     <path d="M99 55 L108 64 L99 73" stroke="#6B52D9" stroke-width="5"/>
-    <path d="M83 27 H68 C55 27 52 45 66 48 L80 51 C96 55 94 78 77 79 H59" stroke="#F3F1EC" stroke-width="18"/>
+    <path d="M83 28 H69 C58 28 53 35 53 43 C53 51 59 55 68 57 L79 59 C90 61 95 67 95 75 C95 84 88 89 77 89 H60" stroke="#F3F1EC" stroke-width="12"/>
   </g>
 </svg>
