@@ -1,4 +1,17 @@
-/* Approved Tuple B visual baseline. Header stays compact; hero uses the exact approved artwork pixels. */
+/* Approved Figma vector artwork. Preserve the current live page layout. */
+
+.brand-approved-logo {
+  display: block;
+  width: 222px;
+  height: 56px;
+  object-fit: contain;
+}
+
+.footer-approved-wordmark {
+  display: block;
+  width: 120px;
+  height: auto;
+}
 
 .clean-brand {
   display: inline-flex;
@@ -50,7 +63,7 @@
 
 .hero-exact-artwork {
   display: block;
-  width: min(100%, 655px);
+  width: min(100%, 320px);
   height: auto;
   object-fit: contain;
 }
@@ -209,6 +222,14 @@ body {
 }
 
 @media (max-width: 760px) {
+  .brand-approved-logo {
+    width: 174px;
+    height: auto;
+  }
+
+  .hero-exact-artwork {
+    width: min(100%, 260px);
+  }
   .clean-brand {
     gap: 10px;
   }
@@ -253,6 +274,13 @@ body {
 }
 
 @media (max-width: 520px) {
+  .brand-approved-logo {
+    width: 140px;
+  }
+
+  .header-inner {
+    gap: 12px;
+  }
   .brand-mark-crop {
     width: 74px;
   }
@@ -277,5 +305,11 @@ body {
   .product-icon svg {
     width: 45px;
     height: 45px;
+  }
+}
+
+@media (max-width: 380px) {
+  .brand-approved-logo {
+    width: 112px;
   }
 }
